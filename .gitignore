@@ -1,0 +1,26 @@
+# === WordPress backup/migration folders ===
+htdocs/wordpress/wp-content/ai1wm-backups/
+htdocs/wordpress/wp-content/updraft/
+htdocs/wordpress/wp-content/upgrade-temp-backup/
+htdocs/wordpress/wp-content/backups/
+
+# === WordPress generated content (optional, keeps repo small) ===
+htdocs/wordpress/wp-content/uploads/
+htdocs/wordpress/wp-content/cache/
+htdocs/wordpress/wp-content/upgrade/
+
+# === Logs and temporary files ===
+*.log
+*.tmp
+*.swp
+*.bak
+
+# === System files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === IDE / Editor folders ===
+.vscode/
+.idea/
+*.code-workspace

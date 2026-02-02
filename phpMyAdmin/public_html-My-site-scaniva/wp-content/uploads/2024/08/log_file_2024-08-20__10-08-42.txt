@@ -1,0 +1,21 @@
+
+---Downloaded files---
+The import files for: Inner Pages were successfully downloaded!
+Initial max execution time = 800
+Files info:
+Site URL = https://technex.themescamp.com/inner-pages
+Data file = /home/852278.cloudwaysapps.com/hynvzavnyr/public_html/wp-content/uploads/sites/7/2024/08/demo-content-import-file_2024-08-20__10-08-42.xml
+Widget file = not defined!
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---ocdi/before_content_import---
+https://elements.themescamp.com/docs/technex/demo-data/elementor/Failed to download ZIP file.
+
+------
+New AJAX call!
+
+
+---ocdi/after_import---
+

@@ -1,0 +1,176 @@
+0000.000 (0) Opened log file at time: Fri, 09 Jan 2026 08:36:00 +0000 on http://trustwingstech.com
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.3 WP: 6.9 PHP: 8.2.25 (litespeed, Linux bh-12.webhostbox.net 4.19.286-203.ELK.el7.x86_64 #1 SMP Wed Jun 14 04:33:55 CDT 2023 x86_64) MySQL: 5.7.23-23 (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 4.3M | 6M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.065 (0) Free space on disk containing Updraft's temporary directory: 1200558.3 MB
+0000.069 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.074 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.078 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1767859099, seconds_ago=88661)
+0000.080 (0) Set semaphore last lock (fd) time to 2026-01-09 08:36:00
+0000.088 (0) Semaphore lock (fd) complete
+0000.101 (0) Backup run: resumption=0, nonce=cb3d7ecb9dfb, file_nonce=cb3d7ecb9dfb begun at=1767947760 (0s ago), job type=backup
+0000.102 (0) Scheduling a resumption (1) after 300 seconds (1767948060) in case this run gets aborted
+0000.132 (0) Checking if we have a zip executable available
+0000.133 (0) Testing: /usr/bin/zip
+0000.145 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.147 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.147 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.148 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.148 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.156 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.157 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.174 (0) Working binary zip found: /usr/bin/zip
+0000.175 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.176 (0) Creation of backups of directories: beginning
+0000.178 (0) No backup of plugins: excluded by user's options
+0000.179 (0) No backup of themes: excluded by user's options
+0000.179 (0) No backup of uploads: excluded by user's options
+0000.180 (0) No backup of mu-plugins: excluded by user's options
+0000.180 (0) No backup of others: excluded by user's options
+0000.181 (0) Saving backup status to database (elements: 0)
+0000.207 (0) Beginning creation of database dump (WordPress DB)
+0000.208 (0) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.210 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0000.250 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\n/*!50717 SELECT COUNT(*) INTO @rocksdb_has_p_s_session_variables FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'performance_schema' AND TABL (truncated - 2591 bytes total)
+0000.251 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0000.349 (0) Table wphi_options: Total expected rows (via COUNT): 345
+0000.351 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.367 (0) Table wphi_options: Rows added in this batch (next record: 43399): 341 (uncompressed bytes in this segment=325331) in 0.02 seconds
+0000.372 (0) Table wphi_options: finishing file(s) (2, 60 KB)
+0000.377 (0) Table wphi_users: Total expected rows (via COUNT): 1
+0000.378 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.381 (0) Table wphi_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1406) in 0.01 seconds
+0000.385 (0) Table wphi_users: finishing file(s) (2, 0.6 KB)
+0000.391 (0) Table wphi_usermeta: Total expected rows (via COUNT): 33
+0000.392 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.393 (0) Table wphi_usermeta: Rows added in this batch (next record: 33): 33 (uncompressed bytes in this segment=3371) in 0.01 seconds
+0000.399 (0) Table wphi_usermeta: finishing file(s) (2, 1.7 KB)
+0000.407 (0) Table wphi_commentmeta: Total expected rows (via COUNT): 3
+0000.407 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.409 (0) Table wphi_commentmeta: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=854) in 0.01 seconds
+0000.414 (0) Table wphi_commentmeta: finishing file(s) (2, 0.4 KB)
+0000.421 (0) Table wphi_comments: Total expected rows (via COUNT): 893
+0000.461 (0) Table wphi_comments: Rows added in this batch (next record: 894): 893 (uncompressed bytes in this segment=310479) in 0.04 seconds
+0000.468 (0) Table wphi_comments: finishing file(s) (2, 34.4 KB)
+0000.472 (0) Table wphi_links: Total expected rows (via COUNT): 0
+0000.474 (0) Table wphi_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1322) in 0.00 seconds
+0000.481 (0) Table wphi_links: finishing file(s) (2, 0.5 KB)
+0001.222 (0) Table wphi_postmeta: Total expected rows (approximate): 5745
+0001.694 (0) Table wphi_postmeta: Rows added in this batch (next record: 9883): 5629 (uncompressed bytes in this segment=21057005) in 1.21 seconds
+0001.700 (0) Table wphi_postmeta: finishing file(s) (2, 1334 KB)
+0002.021 (0) Table wphi_posts: Total expected rows (approximate): 1182
+0002.383 (0) Table wphi_posts: Rows added in this batch (next record: 4635): 1233 (uncompressed bytes in this segment=7935434) in 0.68 seconds
+0002.399 (0) Table wphi_posts: finishing file(s) (2, 544.8 KB)
+0002.417 (0) Table wphi_term_relationships: Total expected rows (approximate): 88
+0002.423 (0) Table wphi_term_relationships: Rows added in this batch (next record: 100000): 86 (uncompressed bytes in this segment=1991) in 0.02 seconds
+0002.426 (0) Table wphi_term_relationships: finishing file(s) (2, 0.7 KB)
+0002.445 (0) Table wphi_term_taxonomy: Total expected rows (via COUNT): 17
+0002.446 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.448 (0) Table wphi_term_taxonomy: Rows added in this batch (next record: 17): 17 (uncompressed bytes in this segment=1521) in 0.02 seconds
+0002.453 (0) Table wphi_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0002.465 (0) Table wphi_termmeta: Total expected rows (via COUNT): 0
+0002.468 (0) Table wphi_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=670) in 0.01 seconds
+0002.478 (0) Table wphi_termmeta: finishing file(s) (2, 0.4 KB)
+0002.498 (0) Table wphi_terms: Total expected rows (via COUNT): 17
+0002.499 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.504 (0) Table wphi_terms: Rows added in this batch (next record: 17): 17 (uncompressed bytes in this segment=1290) in 0.01 seconds
+0002.508 (0) Table wphi_terms: finishing file(s) (2, 0.6 KB)
+0002.536 (0) Table wphi_actionscheduler_actions: Total expected rows (via COUNT): 8
+0002.537 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.541 (0) Table wphi_actionscheduler_actions: Rows added in this batch (next record: 13): 8 (uncompressed bytes in this segment=5318) in 0.02 seconds
+0002.560 (0) Table wphi_actionscheduler_actions: finishing file(s) (2, 1.1 KB)
+0002.584 (0) Table wphi_actionscheduler_claims: Total expected rows (via COUNT): 0
+0002.602 (0) Table wphi_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=618) in 0.03 seconds
+0002.613 (0) Table wphi_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0002.618 (0) Table wphi_actionscheduler_groups: Total expected rows (via COUNT): 2
+0002.620 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.633 (0) Table wphi_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=720) in 0.02 seconds
+0002.639 (0) Table wphi_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0002.645 (0) Table wphi_actionscheduler_logs: Total expected rows (via COUNT): 18
+0002.646 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.648 (0) Table wphi_actionscheduler_logs: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=2316) in 0.01 seconds
+0002.656 (0) Table wphi_actionscheduler_logs: finishing file(s) (2, 0.6 KB)
+0002.664 (0) Table wphi_e_events: Total expected rows (via COUNT): 1
+0002.665 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.666 (0) Table wphi_e_events: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=805) in 0.01 seconds
+0002.672 (0) Table wphi_e_events: finishing file(s) (2, 0.5 KB)
+0002.676 (0) Table wphi_loginizer_logs: Total expected rows (approximate): 0
+0002.696 (0) Table wphi_loginizer_logs: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=619) in 0.02 seconds
+0002.728 (0) Table wphi_loginizer_logs: finishing file(s) (2, 0.3 KB)
+0002.757 (0) Table wphi_nfd_data_event_queue: Total expected rows (via COUNT): 1
+0002.758 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.759 (0) Table wphi_nfd_data_event_queue: Rows added in this batch (next record: 14): 1 (uncompressed bytes in this segment=1520) in 0.02 seconds
+0002.765 (0) Table wphi_nfd_data_event_queue: finishing file(s) (2, 0.8 KB)
+0002.776 (0) Table wphi_wpforms_logs: Total expected rows (via COUNT): 0
+0002.779 (0) Table wphi_wpforms_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=764) in 0.01 seconds
+0002.782 (0) Table wphi_wpforms_logs: finishing file(s) (2, 0.4 KB)
+0002.790 (0) Table wphi_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0002.792 (0) Table wphi_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=751) in 0.01 seconds
+0002.796 (0) Table wphi_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0002.806 (0) Table wphi_wpforms_payments: Total expected rows (via COUNT): 0
+0002.809 (0) Table wphi_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1982) in 0.01 seconds
+0002.813 (0) Table wphi_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0002.823 (0) Table wphi_wpforms_tasks_meta: Total expected rows (via COUNT): 2
+0002.823 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.825 (0) Table wphi_wpforms_tasks_meta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=821) in 0.01 seconds
+0002.830 (0) Table wphi_wpforms_tasks_meta: finishing file(s) (2, 0.4 KB)
+0002.831 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home2/trustwingstech/public_html/wp-content/updraft/backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db.gz (line 1923, wp-content/plugins/updraftplus/backup.php)
+0002.834 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_options.table.tmpr43400.gz (1/23/fopen): adding to final database dump
+0002.836 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_options.table.gz (2/23/fopen): adding to final database dump
+0002.837 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_users.table.tmpr2.gz (3/23/fopen): adding to final database dump
+0002.838 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_users.table.gz (4/23/fopen): adding to final database dump
+0002.838 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_usermeta.table.tmpr34.gz (5/23/fopen): adding to final database dump
+0002.839 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_usermeta.table.gz (6/23/fopen): adding to final database dump
+0002.840 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_commentmeta.table.tmpr4.gz (7/23/fopen): adding to final database dump
+0002.840 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_commentmeta.table.gz (8/23/fopen): adding to final database dump
+0002.841 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_comments.table.tmpr895.gz (9/23/fopen): adding to final database dump
+0002.842 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_comments.table.gz (10/23/fopen): adding to final database dump
+0002.843 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_links.table.tmpr0.gz (11/23/fopen): adding to final database dump
+0002.844 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_links.table.gz (12/23/fopen): adding to final database dump
+0002.845 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_postmeta.table.tmpr9884.gz (13/23/fopen): adding to final database dump
+0002.879 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_postmeta.table.gz (14/23/fopen): adding to final database dump
+0002.880 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_posts.table.tmpr4636.gz (15/23/fopen): adding to final database dump
+0002.895 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_posts.table.gz (16/23/fopen): adding to final database dump
+0002.896 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_term_relationships.table.tmpr100001.gz (17/23/fopen): adding to final database dump
+0002.897 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_term_relationships.table.gz (18/23/fopen): adding to final database dump
+0002.897 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_term_taxonomy.table.tmpr18.gz (19/23/fopen): adding to final database dump
+0002.898 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_term_taxonomy.table.gz (20/23/fopen): adding to final database dump
+0002.898 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_termmeta.table.tmpr0.gz (21/23/fopen): adding to final database dump
+0002.899 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_termmeta.table.gz (22/23/fopen): adding to final database dump
+0002.900 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_terms.table.tmpr18.gz (23/23/fopen): adding to final database dump
+0002.900 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_terms.table.gz (24/23/fopen): adding to final database dump
+0002.901 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_actionscheduler_actions.table.tmpr14.gz (25/23/fopen): adding to final database dump
+0002.901 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_actionscheduler_actions.table.gz (26/23/fopen): adding to final database dump
+0002.902 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_actionscheduler_claims.table.tmpr0.gz (27/23/fopen): adding to final database dump
+0002.903 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_actionscheduler_claims.table.gz (28/23/fopen): adding to final database dump
+0002.903 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_actionscheduler_groups.table.tmpr3.gz (29/23/fopen): adding to final database dump
+0002.904 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_actionscheduler_groups.table.gz (30/23/fopen): adding to final database dump
+0002.904 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_actionscheduler_logs.table.tmpr19.gz (31/23/fopen): adding to final database dump
+0002.905 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_actionscheduler_logs.table.gz (32/23/fopen): adding to final database dump
+0002.905 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_e_events.table.tmpr2.gz (33/23/fopen): adding to final database dump
+0002.906 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_e_events.table.gz (34/23/fopen): adding to final database dump
+0002.907 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_loginizer_logs.table.tmpr1.gz (35/23/fopen): adding to final database dump
+0002.907 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_loginizer_logs.table.gz (36/23/fopen): adding to final database dump
+0002.908 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_nfd_data_event_queue.table.tmpr15.gz (37/23/fopen): adding to final database dump
+0002.908 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_nfd_data_event_queue.table.gz (38/23/fopen): adding to final database dump
+0002.909 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_wpforms_logs.table.tmpr0.gz (39/23/fopen): adding to final database dump
+0002.910 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_wpforms_logs.table.gz (40/23/fopen): adding to final database dump
+0002.910 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_wpforms_payment_meta.table.tmpr0.gz (41/23/fopen): adding to final database dump
+0002.911 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_wpforms_payment_meta.table.gz (42/23/fopen): adding to final database dump
+0002.911 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_wpforms_payments.table.tmpr0.gz (43/23/fopen): adding to final database dump
+0002.912 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_wpforms_payments.table.gz (44/23/fopen): adding to final database dump
+0002.913 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_wpforms_tasks_meta.table.tmpr3.gz (45/23/fopen): adding to final database dump
+0002.913 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db-table-wphi_wpforms_tasks_meta.table.gz (46/23/fopen): adding to final database dump
+0002.932 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db.gz: finished writing out complete database file (1984.7 KB)
+0002.968 (0) Total database tables backed up: 23 (backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db.gz, size: 2032430, sha1: 205d0420abd4f6e2878f04717ce9560886d4e4d1, sha256: 14c35a6d4fd751bf0ac133bfcfb8dbc6c74cf2d1c091fda5eb0653f67da26101)
+0002.997 (0) backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db.gz: db: This file has not yet been successfully uploaded: will queue
+0002.998 (0) Saving backup history. Total backup size: 1.9 MB
+0003.027 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0003.030 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0003.030 (0) No remote despatch: user chose no remote backup service
+0003.031 (0) Recording as successfully uploaded: backup_2026-01-09-0836_IT_Company_cb3d7ecb9dfb-db.gz
+0003.033 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0003.033 (0) Resume backup (cb3d7ecb9dfb, 0): finish run
+0003.035 (0) Decremented the semaphore (fd) by 1
+0003.036 (0) Semaphore (fd) unlocked
+0003.036 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0003.038 (0) No email will/can be sent - the user has not configured an email address.
+0003.039 (0) The backup succeeded and is now complete
